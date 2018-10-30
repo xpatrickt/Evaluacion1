@@ -27,35 +27,71 @@
 <table border="1" cellpadding="10" cellspacing="0">
 	<thead>
 		<tr>
-			<th></th>
-			<th></th>
-			<th></th>
+			<th>Año</th>
+			<th>Institución</th>
+			<th>Lugar</th>
+			<th>¿Culminó?</th>			
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>2013</td>
+			<td>Universidad Nacional Micaela Bastidas</td>
+			<td>Apurimac</td>
+			<td>si</td>			
 		</tr>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>2015</td>
+			<td>CEE San Vicente EIRL</td>
+			<td>Lima</td>
+			<td>si</td>			
 		</tr>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
+			<td>2015</td>
+			<td>Centro de Altos Estudio Profesionales CAEP</td>
+			<td>Apurimac</td>
+			<td>si</td>			
+		</tr>		
 	</tbody>
 </table>
+<!--Agregar formulario-->
+<h2>Agregar Estudios</h2>
+<form action="">
+	<p>
+		<label for="anio">Año: </label>
+		<select name="anio">
+			<option value="1">2013</option>
+			<option value="2">2014</option>
+			<option value="3">2015</option>
+			<option value="4">2016</option>
+			<option value="5">2017</option>
+			<option value="6">2018</option>									
+		</select>
+	</p>
+	<p>
+		<label for="institucion">Institución:</label>
+		<input type="text" name="institucion" placeholder="Ej: Universidad x" autofocus required>
+	</p>
+	<p>
+		<label for="lugar">Lugar:</label> 
+		<textarea name="lugar" id="" cols="30" rows="2"></textarea>
+	</p>	
+	<p>
+		<label for="culmino">¿Culminó? </label>
+		<br>
+		<input type="radio" name="culmino" value="1" checked> Si
+		<br>
+		<input type="radio" name="culmino" value="0"> No
+	</p>
+
+	<p>
+		<input type="submit" value="Enviar">
+	</p>
+</form>
 <!--pie de pagina informacion de contacto-->
 <footer>
 	<h2>Información de Contacto</h2>
-	<h3>Correo Electrónico: patrickrsq@gmail.com</h3>
-	<h3>teléfono: 974399772</h3>
-	<h3>redes sociales: en Facebook como Patrick Salazar</h3>
+	<h3>Correo Electrónico: patrickrsq@gmail.com | teléfono: 974399772 | redes sociales: en Facebook como Patrick Salazar</h3>
 </footer>
 </body>
 </html>
